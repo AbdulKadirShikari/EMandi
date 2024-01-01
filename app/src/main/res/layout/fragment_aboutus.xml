@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/home_back"
+     >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp"
+
+            >
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:src="@drawable/cs_logo"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emandi Auction"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14sdp"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="center"
+            android:text="An App for APMC Trade to help &amp; simplyfy auction need."
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:padding="@dimen/_1sdp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+            android:layout_margin="@dimen/_10sdp"
+        android:textSize="@dimen/_14sdp"
+            android:textColor="@color/colorPrimaryDark"
+        android:text="Address"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+
+           >
+           <TextView
+               android:textColor="@color/colorAccent"
+               android:layout_width="wrap_content"
+               android:padding="@dimen/_5sdp"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:layout_margin="@dimen/_5sdp"
+               android:text="Contact"/>
+           <TextView
+               android:textColor="@color/colorAccent"
+               android:padding="@dimen/_5sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:layout_margin="@dimen/_5sdp"
+               android:text="7000376378"/>
+
+
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="Support"/>
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="8815617949"/>
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:padding="@dimen/_1sdp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our Other Products"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"
+                android:letterSpacing="0.01"
+                android:layout_margin="@dimen/_10sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Emandi (A complete Software for APMC Trade)"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_10sdp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="Contact"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/colorAccent"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="7000376378"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed By"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/cs_logo"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

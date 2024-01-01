@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Emandi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_addjins">Add Jins</string>
+    <string name="title_addmarks">Add Mark</string>
+    <string name="title_report">Report</string>
+    <string name="title_about">About Us</string>
+    <string name="login_title"> for explore your destination  Login first </string>
+
+
+    <string-array name="jins">
+        <item>jins 1</item>
+
+        <item>jins 2</item>
+
+        <item>jins 3</item>
+    </string-array>
+
+    <string-array name="mark">
+        <item>mark 1</item>
+
+        <item>mark 2</item>
+
+        <item>mark 3</item>
+    </string-array>
+
+
+</resources>

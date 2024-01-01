@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_back"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/entry_selectdate"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/reportedt_back"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/tv_show_date"
+                android:textSize="12dp"
+                android:layout_weight="0.9"
+                android:padding="@dimen/_15sdp"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/colorPrimary"
+                android:text="Select Date"/>
+
+
+            <ImageView
+                android:layout_height="@dimen/_20sdp"
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_calendar"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/reportedt_back"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jins"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/entry_jins"
+                android:background="@null"
+                android:singleLine="true"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="@dimen/_15sdp"
+                android:textColorHint="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/reportedt_back"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <EditText
+                android:background="@null"
+                android:padding="@dimen/_15sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mark"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/entry_mark"
+                android:paddingLeft="@dimen/_10sdp"
+                android:singleLine="true"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/reportedt_back"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <EditText
+                android:background="@null"
+                android:padding="@dimen/_15sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/entry_city"
+                android:singleLine="true"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/reportedt_back"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <EditText
+                android:background="@null"
+                android:padding="@dimen/_15sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/entry_qty"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColorHint="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/reportedt_back"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rate"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/entry_rate"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLines="1"
+                android:background="@null"
+                android:padding="@dimen/_15sdp"
+                android:textColorHint="@color/colorPrimary"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/reportedt_back"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Amount"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/entry_amount"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLines="1"
+                android:background="@null"
+                android:padding="@dimen/_15sdp"
+                android:textColorHint="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="right"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/homebutton_back"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/entry_save"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:letterSpacing="0.01"
+                android:textSize="@dimen/_18sdp"
+                android:textAlignment="center"
+                android:padding="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
